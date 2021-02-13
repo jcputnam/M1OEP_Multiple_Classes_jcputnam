@@ -10,6 +10,7 @@
 //readme that answers questions from prompt sheet
 
 #include <iostream>
+#include <string.h>
 #include "runtime.h"
 using namespace std;
 
@@ -31,7 +32,7 @@ int main() {
     cout << "Just as you're walking in the front door, you get slammed to the side by what you initially think is\n"
             "a gorilla.\n"
             "\"Move it or lose it dork! hahaha!\" shouts the ape-like middle schooler.\n\n";
-    run.makeChoice();
+    run.makeChoice("Dance it, big time.","burn the house down.","Scream!");
     //implement mini battleship for where you duck to / where bully swings
     return 0;
 }
